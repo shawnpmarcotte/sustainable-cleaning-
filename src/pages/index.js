@@ -38,15 +38,10 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
-            <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
-            </p>
+            <h2 className="text-white mb-4">WHO WE ARE:</h2>
+            <h3 className="text-white-50">
+              Sustainable Cleaning specializes in high end luxury retail stores, while being environmentally responsible. Our owners have decades of experience working in high end luxury markets, and understand what it takes to properly clean, service, and maintain high end luxury venues. After years of frustration with the quality of service delivered by other companies, we decided to make a change and create one that delivers that white glove premium service at an affordable price
+            </h3>
           </div>
         </div>
         <img src={ipad} className="img-fluid" alt="" />
@@ -61,12 +56,10 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
-              </p>
+              <h3>WHAT WE DO</h3>
+              <h4 className="text-black-50 mb-0">
+                Not all business' are created equal, so not all business should be serviced the same way. Through our extensive experience in luxury markets, we know what its take to deliver high quality cleaning services and what is at risk if your venue is not in pristine conditions. With Sustainable Cleaning, you'll never have to worry about what kind of experience someone will have in your establishment
+              </h4>
             </div>
           </div>
         </div>
@@ -79,7 +72,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">WE ARE ECO FRIENDLY</h4>
                   <p className="mb-0 text-white-50">
                     An example of where you can put an image of a project, or
                     anything else, along with a description.
@@ -99,7 +92,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">PRODUCT IMG OR LUX PIC</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
                     description. These sections work well responsively as well,

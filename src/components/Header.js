@@ -47,7 +47,7 @@ export default class Header extends Component {
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
               openMenu ? '' : 'collapsed'
-            }`}
+              }`}
             type="button"
             aria-controls="navbarResponsive"
             aria-expanded={openMenu}
@@ -68,7 +68,7 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    About
+                    WHO WE ARE
                   </a>
                 </Scroll>
               </li>
@@ -79,7 +79,7 @@ export default class Header extends Component {
                   element="projects"
                 >
                   <a className="nav-link" href="#projects">
-                    Projects
+                    WHAT WE DO
                   </a>
                 </Scroll>
               </li>
@@ -90,7 +90,7 @@ export default class Header extends Component {
                   element="signup"
                 >
                   <a className="nav-link" href="#signup">
-                    Contact
+                    GET IN TOUCH
                   </a>
                 </Scroll>
               </li>
