@@ -16,6 +16,10 @@ Make sure that you have the Gatsby CLI program installed:
 
 ```sh
 npm install --global gatsby-cli
+
+OR
+
+yarn add global gatsby-cli
 ```
 
 And run from your CLI:
@@ -86,14 +90,4 @@ Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefi
 - [gatsby-starter-creative](https://github.com/anubhavsrivastava/gatsby-starter-creative)
 - [gatsby-starter-aerial](https://github.com/anubhavsrivastava/gatsby-starter-aerial)
 
-### Contribution
 
-Suggestions and PRs are welcome!
-
-Please create issue or open PR request for contribution.
-
-### License
-
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
-
-refer `LICENSE` file in this repository.
