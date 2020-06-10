@@ -10,6 +10,7 @@ import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import ipad from '../assets/images/ipad.png';
+import arrow from '../assets/images/arrow.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
@@ -25,11 +26,11 @@ const IndexPage = () => (
           <h2 className="text-white-50 mx-auto mt-2 mb-5">
             {config.subHeading}
           </h2>
-          {/* <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
-              About
+          <Scroll type="id" element="about">
+            <a href="#about">
+              <img src={arrow} className="img-fluid" alt="" />
             </a>
-          </Scroll> */}
+          </Scroll>
         </div>
       </div>
     </header>
@@ -52,7 +53,7 @@ const IndexPage = () => (
             </h3>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        <img src={bgMaster} className="img-fluid" alt="" />
       </div>
     </section>
 
