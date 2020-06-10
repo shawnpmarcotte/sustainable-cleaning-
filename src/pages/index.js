@@ -40,7 +40,7 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">WHO WE ARE:</h2>
             <h3 className="text-white-50">
-              We specialize in luxury retail stores, and we pride ourselves on using envirmonmentally conscious cleaning products. Our owners have decades of experience working in high end luxury markets, and understand what it takes to properly clean, service, and maintain luxury venues. After years of frustration with the quality of service provided by other companies, we decided to make a change for the community. Sustainable Cleaning delivers that white glove premium service the industry has been yearning for, while making a positive impact on the planet
+              We specialize in luxury retail boutiques, and we pride ourselves on using envirmonmentally conscious cleaning products. Our owners have decades of experience working in high end luxury markets, and understand what it takes to properly clean, service, and maintain luxury venues. After years of frustration with the quality of service provided by other companies, we decided to make a change for the community. Sustainable Cleaning delivers that white glove premium service the industry has been yearning for, while making a positive impact on the planet
             </h3>
           </div>
         </div>
@@ -74,7 +74,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h2 className="text-white">WE ARE ECO FRIENDLY</h2>
+                  <h2 className="text-white">WE ARE SUSTAINABLE</h2>
                   <h4 className="mb-0 text-white-50">
                     Chemical exposure from harsh cleaning supplies can have a negative impact on your team, your clients, and the envirmonment
                   </h4>

@@ -7,7 +7,7 @@ export default function Subscribe() {
         <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
             <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h3 className="text-white mb-5">GET IN TOUCH TO FIND OUT HOW WE CAN HELP</h3>
+            <h5 className="text-white mb-5">GET IN TOUCH TO FIND OUT HOW WE MAY ASSIST YOU</h5>
 
             <form className="form-inline d-flex">
               <input
@@ -17,7 +17,7 @@ export default function Subscribe() {
                 placeholder="name"
               />
               <input
-                type="number"
+                type="text"
                 className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                 id="inputNumber"
                 placeholder="email | phone "
