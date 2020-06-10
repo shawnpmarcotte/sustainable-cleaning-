@@ -47,7 +47,7 @@ export default class Header extends Component {
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
               openMenu ? '' : 'collapsed'
-              }`}
+            }`}
             type="button"
             aria-controls="navbarResponsive"
             aria-expanded={openMenu}

@@ -10,6 +10,7 @@ import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
 import ipad from '../assets/images/ipad.png';
+import arrow from '../assets/images/arrow.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
 import bgMaster from '../assets/images/bg-masthead.jpg';
@@ -26,8 +27,8 @@ const IndexPage = () => (
             {config.subHeading}
           </h2>
           <Scroll type="id" element="about">
-            <a href="#about" className="btn btn-primary">
-              About
+            <a href="#about">
+              <img src={arrow} className="img-fluid" alt="" />
             </a>
           </Scroll>
         </div>
@@ -40,11 +41,19 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">WHO WE ARE:</h2>
             <h3 className="text-white-50">
-              We specialize in luxury retail boutiques, and we pride ourselves on using envirmonmentally conscious cleaning products. Our owners have decades of experience working in high end luxury markets, and understand what it takes to properly clean, service, and maintain luxury venues. After years of frustration with the quality of service provided by other companies, we decided to make a change for the community. Sustainable Cleaning delivers that white glove premium service the industry has been yearning for, while making a positive impact on the planet
+              We specialize in luxury retail boutiques, and we pride ourselves
+              on using envirmonmentally conscious cleaning products. Our owners
+              have decades of experience working in high end luxury markets, and
+              understand what it takes to properly clean, service, and maintain
+              luxury venues. After years of frustration with the quality of
+              service provided by other companies, we decided to make a change
+              for the community. Sustainable Cleaning delivers that white glove
+              premium service the industry has been yearning for, while making a
+              positive impact on the planet
             </h3>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        <img src={bgMaster} className="img-fluid" alt="" />
       </div>
     </section>
 
@@ -58,9 +67,11 @@ const IndexPage = () => (
             <div className="featured-text text-center text-lg-left">
               <h3>WHAT WE DO</h3>
               <h3 className="text-black-50 mb-0">
-                Not all business' are created equal, so not all business should be serviced the same way.
-                Through our extensive experience in luxury markets, we know what its take to deliver high quality
-                cleaning services and what is at risk if your venue is not in pristine conditions
+                Not all business' are created equal, so not all business should
+                be serviced the same way. Through our extensive experience in
+                luxury markets, we know what its take to deliver high quality
+                cleaning services and what is at risk if your venue is not in
+                pristine conditions
               </h3>
             </div>
           </div>
@@ -76,7 +87,9 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h2 className="text-white">WE ARE SUSTAINABLE</h2>
                   <h4 className="mb-0 text-white-50">
-                    Chemical exposure from harsh cleaning supplies can have a negative impact on your team, your clients, and the envirmonment
+                    Chemical exposure from harsh cleaning supplies can have a
+                    negative impact on your team, your clients, and the
+                    envirmonment
                   </h4>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -95,7 +108,10 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h2 className="text-white">OUR GOAL</h2>
                   <h4 className="mb-0 text-white-50">
-                    You'll never have to worry about what kind of experience someone will have in your establishment, or harsh chemicals being exposed to your clients, your team, your products, or the environment
+                    You'll never have to worry about what kind of experience
+                    someone will have in your establishment, or harsh chemicals
+                    being exposed to your clients, your team, your products, or
+                    the environment
                   </h4>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
