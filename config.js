@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/SC_logo.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Sustainable Cleaning',
   subHeading: 'High End Luxury Retail Cleaning Services + Enviromentally Conscious Cleaning Products',
