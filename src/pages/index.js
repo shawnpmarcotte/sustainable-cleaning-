@@ -40,7 +40,7 @@ const IndexPage = () => (
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">WHO WE ARE:</h2>
             <h3 className="text-white-50">
-              Sustainable Cleaning specializes in high end luxury retail stores, while being environmentally responsible. Our owners have decades of experience working in high end luxury markets, and understand what it takes to properly clean, service, and maintain high end luxury venues. After years of frustration with the quality of service delivered by other companies, we decided to make a change and create one that delivers that white glove premium service at an affordable price
+              We specialize in luxury retail stores, and we pride ourselves on using envirmonmentally concious cleaning products. Our owners have decades of experience working in high end luxury markets, and understand what it takes to properly clean, service, and maintain luxury venues. After years of frustration with the quality of service delivered by other companies, we decided to make a change for the community and create one that delivers that white glove premium service
             </h3>
           </div>
         </div>
@@ -57,9 +57,11 @@ const IndexPage = () => (
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
               <h3>WHAT WE DO</h3>
-              <h4 className="text-black-50 mb-0">
-                Not all business' are created equal, so not all business should be serviced the same way. Through our extensive experience in luxury markets, we know what its take to deliver high quality cleaning services and what is at risk if your venue is not in pristine conditions. With Sustainable Cleaning, you'll never have to worry about what kind of experience someone will have in your establishment
-              </h4>
+              <h3 className="text-black-50 mb-0">
+                Not all business' are created equal, so not all business should be serviced the same way.
+                Through our extensive experience in luxury markets, we know what its take to deliver high quality
+                cleaning services and what is at risk if your venue is not in pristine conditions
+              </h3>
             </div>
           </div>
         </div>
@@ -72,11 +74,10 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">WE ARE ECO FRIENDLY</h4>
-                  <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
-                  </p>
+                  <h2 className="text-white">WE ARE ECO FRIENDLY</h2>
+                  <h4 className="mb-0 text-white-50">
+                    Chemical exposure from harsh cleaning supplies can have a negative impact on your team, your clients, and the envirmonment
+                  </h4>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
@@ -92,12 +93,10 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">PRODUCT IMG OR LUX PIC</h4>
-                  <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
-                  </p>
+                  <h2 className="text-white">OUR GOAL</h2>
+                  <h4 className="mb-0 text-white-50">
+                    You'll never have to worry about what kind of experience someone will have in your establishment, or harsh chemicals being exposed to your clients, your team, your products, or the environment
+                  </h4>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>

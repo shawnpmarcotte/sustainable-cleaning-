@@ -34,7 +34,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'czamora@sustainablecleaning.net',
+  phone: '305-979-6997',
+  address: 'We operate in the the South Florida area',
 };
