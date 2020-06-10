@@ -9,11 +9,11 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
+import fancyone from '../assets/images/fancyone.jpg';
 import arrow from '../assets/images/arrow.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
+import clock from '../assets/images/clock.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+import dude from '../assets/images/dude.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -53,7 +53,7 @@ const IndexPage = () => (
             </h3>
           </div>
         </div>
-        <img src={bgMaster} className="img-fluid" alt="" />
+        {/* <img src={fancyone} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
@@ -61,7 +61,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={fancyone} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -79,7 +79,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={clock} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -100,7 +100,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={dude} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
