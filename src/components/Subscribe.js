@@ -11,18 +11,22 @@ export default function Subscribe() {
 
             <form className="form-inline d-flex" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="contact" />
-              <input
-                name="name"
-                type="text"
-                className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
-                placeholder="name"
-              />
-              <input
-                name="contact"
-                type="text"
-                className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
-                placeholder="email | phone "
-              />
+              <label>
+                <input
+                  name="name"
+                  type="text"
+                  className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
+                  placeholder="name"
+                />
+              </label>
+              <label>
+                <input
+                  name="contact"
+                  type="text"
+                  className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
+                  placeholder="email | phone "
+                />
+              </label>
               <br />
               <button type="submit" className="btn btn-primary mx-auto">
                 SEND IT!
