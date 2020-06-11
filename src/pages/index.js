@@ -9,11 +9,10 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import fancyone from '../assets/images/fancyone.jpg';
 import arrow from '../assets/images/arrow.png';
-import clock from '../assets/images/clock.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-import dude from '../assets/images/dude.jpg';
+import cleaning from '../assets/images/cleaning.jpg';
+import columns from '../assets/images/columns.jpg';
+import stuff from '../assets/images/stuff.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -53,7 +52,7 @@ const IndexPage = () => (
             </h3>
           </div>
         </div>
-        {/* <img src={fancyone} className="img-fluid" alt="" /> */}
+        {/* <img src={car} className="img-fluid" alt="" /> */}
       </div>
     </section>
 
@@ -61,7 +60,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={fancyone} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={stuff} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -79,7 +78,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={clock} alt="" />
+            <img className="img-fluid" src={cleaning} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -100,7 +99,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={dude} alt="" />
+            <img className="img-fluid" src={columns} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -109,9 +108,9 @@ const IndexPage = () => (
                   <h2 className="text-white">OUR GOAL</h2>
                   <h4 className="mb-0 text-white-50">
                     You'll never have to worry about what kind of experience
-                    someone will have in your establishment, or harsh chemicals
-                    being exposed to your clients, your team, your products, or
-                    the environment
+                    someone will have in your boutique, or harsh chemicals
+                    being exposed to your clients, team, products, or
+                    environment
                   </h4>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
