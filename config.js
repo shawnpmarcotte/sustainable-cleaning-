@@ -36,5 +36,5 @@ module.exports = {
   ],
   email: 'czamora@sustainablecleaning.net',
   phone: '305-979-6997',
-  address: 'We operate in the the South Florida area',
+  address: 'We service luxury boutiques in the South Florida area',
 };
