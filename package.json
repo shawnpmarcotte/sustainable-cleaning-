@@ -11,6 +11,7 @@
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
+    "babel-plugin-react-rename-unsafe-lifecycle": "^1.0.4",
     "gatsby": "^2.4.3",
     "gatsby-cli": "^2.12.45",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -27,6 +28,7 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "scripts": {
+    "postinstall": "jscodeshift --silent --babel --transform ./node_modules/babel-plugin-react-rename-unsafe-lifecycle/lib/rename-unsafe-lifecycles.js */react-*/**.js --ignore-pattern */react-native/",
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
