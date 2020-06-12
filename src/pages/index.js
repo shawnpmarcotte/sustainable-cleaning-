@@ -69,7 +69,7 @@ const IndexPage = () => (
               <h3 className="text-black-50 mb-0">
                 Not all business' are created equal, so not all business should
                 be serviced the same way. Through our extensive experience in
-                luxury markets, we know what it takes to deliver high quality
+                luxury markets, we know what its take to deliver high quality
                 cleaning services and what is at risk if your boutique is not in
                 pristine conditions
               </h3>

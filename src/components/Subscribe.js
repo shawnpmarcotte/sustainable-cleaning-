@@ -13,7 +13,6 @@ export default function Subscribe() {
               <input type="hidden" name="form-name" value="contact" />
               <label>
                 <input
-                  required
                   name="name"
                   type="text"
                   className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
@@ -22,7 +21,6 @@ export default function Subscribe() {
               </label>
               <label>
                 <input
-                  required
                   name="contact"
                   type="text"
                   className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
