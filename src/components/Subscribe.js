@@ -7,9 +7,17 @@ export default function Subscribe() {
         <div className="row">
           <div className="col-md-10 col-lg-8 mx-auto text-center">
             <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h5 className="text-white mb-5">GET IN TOUCH TO FIND OUT HOW WE MAY ASSIST YOU</h5>
+            <h5 className="text-white mb-5">
+              GET IN TOUCH TO FIND OUT HOW WE MAY ASSIST YOU
+            </h5>
 
-            <form className="form-inline d-flex" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form
+              className="form-inline d-flex"
+              name="contact"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
               <input type="hidden" name="form-name" value="contact" />
               <label>
                 <input

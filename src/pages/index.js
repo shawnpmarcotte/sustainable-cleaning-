@@ -41,7 +41,7 @@ const IndexPage = () => (
             <h2 className="text-white mb-4">WHO WE ARE:</h2>
             <h3 className="text-white-50">
               We specialize in luxury retail boutiques, and we pride ourselves
-              on using envirmonmentally conscious cleaning products. Our owners
+              on using enviromentally conscious cleaning products. Our owners
               have decades of experience working in high end luxury markets, and
               understand what it takes to properly clean, service, and maintain
               luxury venues. After years of frustration with the quality of
@@ -88,7 +88,7 @@ const IndexPage = () => (
                   <h4 className="mb-0 text-white-50">
                     Chemical exposure from harsh cleaning supplies can have a
                     negative impact on your team, your clients, and the
-                    envirmonment
+                    environment
                   </h4>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -108,9 +108,8 @@ const IndexPage = () => (
                   <h2 className="text-white">OUR GOAL</h2>
                   <h4 className="mb-0 text-white-50">
                     You'll never have to worry about what kind of experience
-                    someone will have in your boutique, or harsh chemicals
-                    being exposed to your clients, team, products, or
-                    environment
+                    someone will have in your boutique, or harsh chemicals being
+                    exposed to your clients, team, products, or environment
                   </h4>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
