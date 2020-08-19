@@ -9,9 +9,9 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
+import beachtwo from '../assets/images/beachtwo.jpg';
 import arrow from '../assets/images/arrow.png';
 import cleaning from '../assets/images/cleaning.jpg';
-import columns from '../assets/images/columns.jpg';
 import stuff from '../assets/images/stuff.jpg';
 
 const IndexPage = () => (
@@ -41,7 +41,7 @@ const IndexPage = () => (
             <h2 className="text-white mb-4">WHO WE ARE:</h2>
             <h3 className="text-white-50">
               We specialize in luxury retail boutiques, and we pride ourselves
-              on using enviromentally conscious cleaning products. Our owners
+              on using environmentally conscious cleaning products. Our owners
               have decades of experience working in high end luxury markets, and
               understand what it takes to properly clean, service, and maintain
               luxury venues. After years of frustration with the quality of
@@ -68,8 +68,8 @@ const IndexPage = () => (
               <h3 className="text-black-50 mb-0">
                 Not all business' are created equal, so not all business should
                 be serviced the same way. Through our extensive experience in
-                luxury markets, we know what its take to deliver high quality
-                cleaning services and what is at risk if your venue is not in
+                luxury markets, we know what it takes to deliver high quality
+                cleaning services and what is at risk if your boutique is not in
                 pristine conditions
               </h3>
             </div>
@@ -85,11 +85,11 @@ const IndexPage = () => (
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
                   <h2 className="text-white">WE ARE SUSTAINABLE</h2>
-                  <h4 className="mb-0 text-white-50">
-                    Chemical exposure from harsh cleaning supplies can have a
+                  <h5 className="mb-0 text-white-50">
+                    Chemical exposure from harsh cleaning supplies will have a
                     negative impact on your team, your clients, and the
                     environment
-                  </h4>
+                  </h5>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
@@ -99,7 +99,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={columns} alt="" />
+            <img className="img-fluid" src={beachtwo} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
