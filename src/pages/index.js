@@ -75,7 +75,7 @@ const IndexPage = () => (
               <h3>OUR PROMISE</h3>
               <h3 className="text-black-50 mb-0">
                 The concept of sustainability is composed of three pillars:
-                profit, people and planet. Sourcing the right cleaning product
+                people, planet, and product. Sourcing the right cleaning product
                 with the right materials and standards takes a lot of
                 dedication, meticulous attention to detail and research. It’s
                 our promise to find industry professionals and suppliers that

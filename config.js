@@ -34,7 +34,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  email: 'czamora@sustainablecleaning.net',
-  phone: '305-979-6997',
+  email: 'info@sustainablecleaning.net',
+  phone: '1 (305) 741-0719',
   address: 'We service luxury boutiques in the South Florida area',
 };
