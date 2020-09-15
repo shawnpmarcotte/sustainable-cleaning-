@@ -68,7 +68,7 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    WHO WE ARE
+                    OUR MISSION : WHY WE DO WHAT WE DO
                   </a>
                 </Scroll>
               </li>
@@ -79,7 +79,7 @@ export default class Header extends Component {
                   element="projects"
                 >
                   <a className="nav-link" href="#projects">
-                    WHAT WE DO
+                    OUR PROMISE
                   </a>
                 </Scroll>
               </li>

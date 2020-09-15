@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/SC_logo.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Sustainable Cleaning',
-  subHeading: 'High End Luxury Retail Cleaning Services + Enviromentally Conscious Cleaning Products',
+  subHeading: 'WHEN LUXURY RETAIL BECOMES FULLY SUSTAINABLE',
 
   // social
   socialLinks: [

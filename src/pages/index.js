@@ -9,7 +9,6 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-
 import beachtwo from '../assets/images/beachtwo.jpg';
 import arrow from '../assets/images/arrow.png';
 import cleaning from '../assets/images/cleaning.jpg';
@@ -39,17 +38,25 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">WHO WE ARE:</h2>
+            <h2 className="text-white mb-4">
+              OUR MISSION - WHY WE DO WHAT WE DO:
+            </h2>
             <h3 className="text-white-50">
-              We specialize in luxury retail boutiques, and we pride ourselves
-              on using envirmonmentally conscious cleaning products. Our owners
-              have decades of experience working in high end luxury markets, and
-              understand what it takes to properly clean, service, and maintain
-              luxury venues. After years of frustration with the quality of
-              service provided by other companies, we decided to make a change
-              for the community. Sustainable Cleaning delivers that white glove
-              premium service the industry has been yearning for, while making a
-              positive impact on the planet
+              At Sustainable Cleaning, fashion and sustainability go hand in
+              hand. We make it our mission to offer luxury retail boutiques a
+              unique cleaning experience to what is currently available in the
+              marketplace. With a major focus on customer service (and/or retail
+              excellence) we believe in delivering exceptional results to a
+              demographic that expects nothing but the best. We are truly
+              committed to redesigning standards, delivering the concept of
+              sustainability and premium cleaning services to the retail
+              industry. Here at Sustainable Cleaning we simply want to do less
+              damage to the environment. Therefore we offer quality and
+              environmentally safe products that are good for you, your
+              employees, your customers and our planet. We carefully select
+              plant based ecological cleaners and supplies that ensure safety
+              and top performance. It’s more than just swapping out cleaning
+              chemicals. We strive to raise the bar
             </h3>
           </div>
         </div>
@@ -65,13 +72,16 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h3>WHAT WE DO</h3>
+              <h3>OUR PROMISE</h3>
               <h3 className="text-black-50 mb-0">
-                Not all business' are created equal, so not all business should
-                be serviced the same way. Through our extensive experience in
-                luxury markets, we know what it takes to deliver high quality
-                cleaning services and what is at risk if your boutique is not in
-                pristine conditions
+                The concept of sustainability is composed of three pillars:
+                profit, people and planet. Sourcing the right cleaning product
+                with the right materials and standards takes a lot of
+                dedication, meticulous attention to detail and research. It’s
+                our promise to find industry professionals and suppliers that
+                share the same values and goals as we do: respect for employees,
+                limiting environmental impact, long-term vision of
+                sustainability, committed to social change, ethical mindset
               </h3>
             </div>
           </div>
@@ -85,11 +95,13 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h2 className="text-white">WE ARE SUSTAINABLE</h2>
+                  {/* <h2 className="text-white">WE ARE SUSTAINABLE</h2> */}
                   <h5 className="mb-0 text-white-50">
-                    Chemical exposure from harsh cleaning supplies will have a
-                    negative impact on your team, your clients, and the
-                    envirmonment - which is why we take pride in only using sustainable cleaning products
+                    How your retail space looks says a lot about you. Having a
+                    trusted partner to provide a full spectrum of cleaning
+                    services customized to your needs allows you to focus on
+                    your business, while we keep it spotlessly clean in the
+                    greenest way possible
                   </h5>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -106,12 +118,17 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h2 className="text-white">OUR GOAL</h2>
+                  {/* <h2 className="text-white">OUR GOAL</h2> */}
                   <h5 className="mb-0 text-white-50">
-                    You will never have to worry about what kind of experience
-                    your guest will have in the boutique; or harsh chemicals
-                    being exposed to your clients, team, products, or
-                    environment
+                    To implement these eco-friendly changes to your business,
+                    showing your commitment to social responsibility, as well as
+                    your business acumen. The transition to sustainability in
+                    cleaning should make companies proud to be doing their part
+                    in taking care of our environment, and with the tools
+                    available today, it has never been easier. The bottom line
+                    is that everyone wins: owners, employees, customers and the
+                    environment. We have the experience and knowledge to help
+                    your organization become an eco-friendly business.
                   </h5>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
