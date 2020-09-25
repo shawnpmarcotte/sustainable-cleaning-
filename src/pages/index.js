@@ -56,7 +56,7 @@ const IndexPage = () => (
               employees, your customers and our planet. We carefully select
               plant based ecological cleaners and supplies that ensure safety
               and top performance. It’s more than just swapping out cleaning
-              chemicals. We strive to raise the bar
+              chemicals. We strive to raise the bar.
             </h3>
           </div>
         </div>
@@ -81,7 +81,7 @@ const IndexPage = () => (
                 our promise to find industry professionals and suppliers that
                 share the same values and goals as we do: respect for employees,
                 limiting environmental impact, long-term vision of
-                sustainability, committed to social change, ethical mindset
+                sustainability, committed to social change, ethical mindset.
               </h3>
             </div>
           </div>
@@ -101,7 +101,7 @@ const IndexPage = () => (
                     trusted partner to provide a full spectrum of cleaning
                     services customized to your needs allows you to focus on
                     your business, while we keep it spotlessly clean in the
-                    greenest way possible
+                    greenest way possible.
                   </h5>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
