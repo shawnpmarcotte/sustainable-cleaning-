@@ -39,7 +39,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-lg-8 mx-auto">
             <h2 className="text-white mb-4">
-              OUR MISSION - WHY WE DO WHAT WE DO:
+              OUR MISSION - WHY WE DO WHAT WE DO
             </h2>
             <h3 className="text-white-50">
               How your retail space looks says a lot about you. At Sustainable
