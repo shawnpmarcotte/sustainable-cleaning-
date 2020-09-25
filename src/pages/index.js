@@ -45,8 +45,8 @@ const IndexPage = () => (
               At Sustainable Cleaning, fashion and sustainability go hand in
               hand. We make it our mission to offer luxury retail boutiques a
               unique cleaning experience to what is currently available in the
-              marketplace. With a major focus on customer service (and/or retail
-              excellence) we believe in delivering exceptional results to a
+              marketplace. With a major focus on customer service and retail
+              excellence. We believe in delivering exceptional results to a
               demographic that expects nothing but the best. We are truly
               committed to redesigning standards, delivering the concept of
               sustainability and premium cleaning services to the retail
