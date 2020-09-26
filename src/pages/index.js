@@ -46,7 +46,7 @@ const IndexPage = () => (
               Cleaning, fashion and sustainability go hand in hand. We make it
               our mission to offer luxury retail boutiques a unique cleaning
               experience to what is currently available in the marketplace. With
-              a major focus on customer service and retail excellence. We
+              a major focus on customer service and retail excellence, we
               believe in delivering exceptional results to a demographic that
               expects nothing but the best. We are truly committed to
               redesigning standards, delivering the concept of sustainability
