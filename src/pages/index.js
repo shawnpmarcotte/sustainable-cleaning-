@@ -52,13 +52,13 @@ const IndexPage = () => (
               redesigning standards, delivering the concept of sustainability
               and premium cleaning services to the retail industry. Here at
               Sustainable Cleaning we simply want to do less damage to the
-              environment. Therefore we offer quality and environmentally safe
-              products that are good for you, your employees, your customers and
-              our planet. We carefully select plant based ecological cleaners
-              and supplies that ensure safety and top performance. It’s more
-              than just swapping out cleaning chemicals. We strive to raise the
-              bar.
+              environment. We offer quality and environmentally safe products
+              that are good for you, your employees, your customers and our
+              planet. We carefully select plant based ecological cleaners and
+              supplies that ensure safety and top performance. It’s more than
+              just swapping out cleaning chemicals.
             </h3>
+            <h3 className="text-white-50"> We strive to raise the bar.</h3>
           </div>
         </div>
         {/* <img src={car} className="img-fluid" alt="" /> */}
